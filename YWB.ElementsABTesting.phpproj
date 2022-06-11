@@ -1,0 +1,10 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>761f811f-aed0-4a91-9202-239c927ee492</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="*.tmp" />
+    <Content Remove="vendor\composer\**" />
+    <Content Remove="vendor\ivopetkov\**" />
+  </ItemGroup>
+</Project>

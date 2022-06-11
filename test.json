@@ -1,0 +1,17 @@
+{
+  "yaid": 88947386,
+  "name": "Assosiation",
+  "tests": [
+    {
+      "selector": ".container > header",
+      "type": "attribute",
+      "attribute": "style",
+      "variations": [
+        {
+          "name": "Hidden header",
+          "value": "display:none;"
+        }
+      ]
+    }
+  ]
+}
