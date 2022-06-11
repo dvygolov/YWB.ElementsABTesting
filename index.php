@@ -42,9 +42,9 @@ function get_random_test_dom(){
     }
 
     $dom = insert_yandex($ts['yaid'], $testName, $dom);
-    $body = $dom->querySelector('body');
-    $testNameNode = new DOMText($testName);
-    $body->insertBefore($testNameNode, $body->firstChild);
+    //$body = $dom->querySelector('body');
+    //$testNameNode = new DOMText($testName);
+    //$body->insertBefore($testNameNode, $body->firstChild);
     return $dom;
 }
 
