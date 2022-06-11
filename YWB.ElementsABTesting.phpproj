@@ -4,8 +4,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="*.tmp" />
-    <Content Remove="vendor\composer\**" />
-    <Content Remove="vendor\ivopetkov\**" />
   </ItemGroup>
   <ItemGroup>
     <None Include="YWB.ElementsABTesting.sln" />
