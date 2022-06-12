@@ -59,6 +59,14 @@ function insert_yandex($yaid, $yaname, HTML5DOMDocument $dom){
     return $dom;
 }
 
-$dom = get_random_test_dom();
+$tp = new TestPlayground();
+$dom = $tp->get_random_test_dom();
+$testName = $tp->testName;
+$cId = $rawClick->getCampaignId();
+$subid = $rawClick->getSubId();
+if (isset($cId) && isset($subid)){
+    $keitaro=new KeitaroHelper($cId, $subid, $testName);
+    $keitaro->update_click_params();
+}
 echo $dom->saveHTML();
 ?>
