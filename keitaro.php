@@ -3,7 +3,7 @@ class KeitaroHelper
 {
     const TrackerUrl = "";
     const TrackerApiKey = "";
-    const ParamName = "abtest";
+    const ParamName = "sub_id_8";
 
     private $_campaignAlias;
     private $_subid;
